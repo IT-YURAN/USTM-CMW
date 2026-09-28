@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Diario de Rede</string>
+    <string name="estadoRede">Estado da Rede</string>
+    <string name="AdicionarNota">Adicionar Nota +</string>
+    <string name="VisualizarNota">Visualizar Notas </string>
+    <string name="tituloLista"> Lista de Notas: </string>
 
 
 
