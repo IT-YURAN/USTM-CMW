@@ -75,7 +75,7 @@
         android:backgroundTint="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/estadoRede"
+        app:layout_constraintTop_toBottomOf="@id/edit_nota"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="100dp" />
@@ -94,5 +94,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp" />
 
+    <EditText
+        android:id="@+id/edit_nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_nota"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:autofillHints="name"
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/estadoRede"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

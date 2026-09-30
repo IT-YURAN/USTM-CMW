@@ -37,4 +37,13 @@ public class Nota {
     public void setDataHora(Date dataHora) {
         this.dataHora = dataHora;
     }
+
+    @Override
+    public String toString() {
+        return "Nota{" +
+                "id=" + id +
+                ", nota='" + nota + '\'' +
+                ", dataHora=" + dataHora +
+                '}';
+    }
 }
