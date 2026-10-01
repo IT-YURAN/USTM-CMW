@@ -55,15 +55,15 @@ com a utilização da rede.
 
 ### Estado Wi-Fi
 
-![WI-Fi](D:\Tech Faculdade\CMW\Diario de Rede\screanshots\Screenshot_20261001_134200_Diario de Rede.jpg)
+<
 
 ### Dados móveis
+<img src= "screenshots/DadosMoveis.png.jpg">
 
-![Dados móveis](screenshots/dados-moveis.png)
+![Dados móveis]()
 
 ### Sem ligação
-
-![Sem ligação](screenshots/sem-ligacao.png)
+-![Sem ligação](screenshots/sem-ligacao.png)
 
 ### Diário
 
