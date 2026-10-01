@@ -55,11 +55,11 @@ com a utilização da rede.
 
 ### Estado Wi-Fi
 
-<
+
 
 ### Dados móveis
 
-![Dados móveis]("screanshots/DadosMoveis.png.jpg")
+![Dados móveis]("screenshots/DadosMoveis.png.jpg")
 
 ### Sem ligação
 -![Sem ligação](screenshots/sem-ligacao.png)
