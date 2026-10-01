@@ -58,9 +58,8 @@ com a utilização da rede.
 <
 
 ### Dados móveis
-<img src= "screenshots/DadosMoveis.png.jpg">
 
-![Dados móveis]()
+![Dados móveis]("screanshots/DadosMoveis.png.jpg")
 
 ### Sem ligação
 -![Sem ligação](screenshots/sem-ligacao.png)
