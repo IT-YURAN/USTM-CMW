@@ -41,8 +41,8 @@ public class Nota {
     @Override
     public String toString() {
         return
-                "Nota:" + id +
-                ", Nota:'" + nota + '\'' +
-                ", Data:" + dataHora ;
+                "Nota:" + id + "\n"+
+                "Nota:" + nota + "\n" +
+                "Data:" + dataHora ;
     }
 }
