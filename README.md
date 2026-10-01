@@ -55,7 +55,7 @@ com a utilização da rede.
 
 ### Estado Wi-Fi
 
-![Wi-Fi](screenshots/wifi.png)
+![WI-Fi](D:\Tech Faculdade\CMW\Diario de Rede\screanshots\Screenshot_20261001_134200_Diario de Rede.jpg)
 
 ### Dados móveis
 
