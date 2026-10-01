@@ -10,7 +10,7 @@ public class NotaRepository {
     private static long proximoId=1;
 
     public static  void  adicionar(String texto){
-        notaList.add(new Nota(proximoId,texto,new Date()));
+        notaList.add(new Nota(proximoId++,texto,new Date()));
     }
     public static List<Nota> getNotaList(){
         return notaList;

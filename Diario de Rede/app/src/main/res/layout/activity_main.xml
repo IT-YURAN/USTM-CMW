@@ -67,7 +67,7 @@
         />
 
     <Button
-        android:id="@+id/diarioButton"
+        android:id="@+id/adicionarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/AdicionarNota"
@@ -89,7 +89,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/diarioButton"
+        app:layout_constraintTop_toBottomOf="@id/adicionarButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp" />

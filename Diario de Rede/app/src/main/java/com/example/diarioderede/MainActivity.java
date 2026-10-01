@@ -18,31 +18,31 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textEstadoRede=findViewById(R.id.estadoRede);
+
         String estadoRede=NetworkUtils.getNetworkType(this);
         textEstadoRede.setText(estadoRede);
         EditText editText=findViewById(R.id.edit_nota);
 
-        Button buttonDiario=findViewById(R.id.verNotas);
-        Button buttonvisualizar=findViewById(R.id.diarioButton);
+        Button buttovisualizar=findViewById(R.id.verNotas);
 
+        Button buttonadicionar=findViewById(R.id.adicionarButton);
 
-        buttonDiario.setOnClickListener(v->{
-            Intent intent=new Intent(MainActivity.this,DiarioActivity.class);
-            startActivity(intent);
-        });
-
-        buttonvisualizar.setOnClickListener(v -> {
+        buttonadicionar.setOnClickListener(v -> {
             String texto=editText.getText().toString().trim();
             if (texto.isEmpty()){
                 editText.setError("Escreva uma nota");
                 return;
             }
             NotaRepository.adicionar(texto);
-            editText.setText("");
         });
-        buttonvisualizar.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, DiarioActivity.class));
-        });
+
+        buttovisualizar.setOnClickListener(v->
+            startActivity(new Intent(MainActivity.this, DiarioActivity.class)));
+
+
+
+
+
 
 
 

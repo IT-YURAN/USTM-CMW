@@ -40,10 +40,9 @@ public class Nota {
 
     @Override
     public String toString() {
-        return "Nota{" +
-                "id=" + id +
-                ", nota='" + nota + '\'' +
-                ", dataHora=" + dataHora +
-                '}';
+        return
+                "Nota:" + id +
+                ", Nota:'" + nota + '\'' +
+                ", Data:" + dataHora ;
     }
 }
